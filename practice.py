@@ -31,7 +31,19 @@
 #             if c%2!=0:
 #                 print(i,end=" ")
 
-l=[[1,2],[3,4],[5,6]]
-r=list(map(lambda x:x+[5],l))
-print(l)
-print(r)
+# n=33
+# for i in range(1,n+1):
+#     print("Cvcorp")
+
+
+# for i in range(250,551):
+#     if i%11==0:
+#         print(i)
+#
+# s=0
+# for i in range(56,154):
+#     s=s+i
+# print(s)
+
+# for i in range(500,901):
+#     if i%2==0:
