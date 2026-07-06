@@ -210,25 +210,30 @@ from functools import reduce
 # 231
 # use n=123 and print circular of this number's digits example for this n=123 the output should 123,312,231
 
-n=112
-t=n
-dc=0
-rot=[]
-while t>0:
-    dc=dc+1
-    t=t//10
-t=n
-for i in range(1,dc+1):
-    print(t)
-    rot.append(t)
-    r=t%10
-    t=t//10
-    t=r*(10**(dc-1))+t
-print(rot)
-for i in rot:
-    fc=0
-    for j in range(1,i+1):
-        if i%j==0:
-            fc=fc+1
-    if fc==2:
-        print("Prime number is",i)
+# n=112
+# t=n
+# dc=0
+# rot=[]
+# while t>0:
+#     dc=dc+1
+#     t=t//10
+# t=n
+# for i in range(1,dc+1):
+#     print(t)
+#     rot.append(t)
+#     r=t%10
+#     t=t//10
+#     t=r*(10**(dc-1))+t
+# print(rot)
+
+
+# for i in rot:
+#     fc=0
+#     for j in range(1,i+1):
+#         if i%j==0:
+#             fc=fc+1
+#     if fc==2:
+#         print("Prime number is",i)
+
+
+
